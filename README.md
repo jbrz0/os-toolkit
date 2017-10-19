@@ -26,16 +26,11 @@ Built on the middleman framework. Includes a bunch of modern frontend tools.
 __You can also use the files in `/build` on your own server__
 
 
-+(TODO) - ADD DESCRIPTION
-
 ### Dependencies
 
 - Middleman: Static site generator
 - Bootstrap 4: UI toolkit
 - jQuery: JS functionality
-
-+(TODO) Velocity - Animation library
-+(TODO) jQuery UI / Mobile ???
 
 
 ### Features
@@ -50,9 +45,6 @@ __You can also use the files in `/build` on your own server__
 - Single build command will properly build all files
 - No server config/routing needed
 - Easily deploy to Now, Netlify or other one click systems
-
-+(TODO) CSS Grid
-+(TODO) SASS + mixins, structure setup
 
 ---
 
