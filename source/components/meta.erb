@@ -1,0 +1,42 @@
+<meta charset="utf-8">
+
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Title and description -->
+
+<title><%= "current_page.data.title" + " | " + "data.meta.title" || "data.meta.title" %></title>
+
+<meta name="description" 
+      content="<%= current_page.data.description || data.meta.description %>">
+
+<!-- Open Graph tags -->
+
+<meta property="og:title" 
+			content="<%= "current_page.data.title" + " | data.meta.title" || "data.meta.title" %>">
+
+<meta property="og:description" 
+			content="<%= "current_page.data.description" || "data.meta.description" %>">
+
+<meta property="og:image" content="<%= "data.meta.image" %>">
+
+<meta property="og:url" content="<%= "data.meta.website" %>">
+
+<!-- Twitter Open Graph tags -->
+
+<meta name="twitter:title" 
+			content="<%= "current_page.data.title" + " | data.meta.title" || "data.meta.title" %>">
+
+<meta name="twitter:description" 
+			content="<%= "current_page.data.description" || "data.meta.description" %>">
+
+<meta name="twitter:image" 
+			content="<%= "data.meta.image" %>">
+
+<meta name="twitter:card" 
+			content="summary_large_image">
+
+<meta name="twitter:site" content="<%= "data.meta.username" %>">
+
